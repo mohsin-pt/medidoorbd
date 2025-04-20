@@ -1,72 +1,97 @@
 
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MediDoor BD - ঘরে বসে অসুধ</title>
+    <title>MediDoorBD - Welcome</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
             margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
         }
         header {
-            background-color: #2d8b57;
+            background-color: #0066cc;
             color: white;
+            padding: 20px 0;
             text-align: center;
-            padding: 20px 10px;
         }
-        section {
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #eaf2f8;
+        }
+        .hero h1 {
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .services {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .services h2 {
+            margin-bottom: 20px;
+        }
+        .service-box {
+            background: white;
+            display: inline-block;
+            margin: 10px;
             padding: 20px;
-            background-color: white;
-            margin: 15px;
-            border-radius: 8px;
-        }
-        h2 {
-            color: #2d8b57;
-        }
-        .product {
-            margin-bottom: 15px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         footer {
+            background-color: #0066cc;
+            color: white;
             text-align: center;
-            padding: 15px;
-            background-color: #2d8b57;
-            color: white;
-        }
-        .whatsapp-btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #25D366;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
+            padding: 10px 0;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>MediDoor BD</h1>
-        <p>ঘরে বসে অসুধ</p>
+        <h1>MediDoorBD</h1>
+        <p>Your health, our priority</p>
     </header>
-    <section>
-        <h2>আমাদের পণ্য</h2>
-        <div class="product">
-            <p>প্যারাসিটামল ট্যাবলেট</p>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section class="hero">
+        <h1>Welcome to MediDoorBD</h1>
+        <p>Providing reliable healthcare solutions at your doorstep.</p>
+    </section>
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Online Doctor</h3>
+            <p>Consult certified doctors through video call.</p>
         </div>
-        <div class="product">
-            <p>স্যাভলন হ্যান্ড স্যানিটাইজার</p>
+        <div class="service-box">
+            <h3>Medicine Delivery</h3>
+            <p>Fast and safe medicine delivery anywhere in Bangladesh.</p>
         </div>
-        <a class="whatsapp-btn" href="https://wa.me/8801XXXXXXXXX">WhatsApp-এ অর্ডার করুন</a>
+        <div class="service-box">
+            <h3>Health Tips</h3>
+            <p>Daily tips to keep your body and mind healthy.</p>
+        </div>
     </section>
     <footer>
-        &copy; 2025 MediDoor BD
+        <p>&copy; 2025 MediDoorBD. All rights reserved.</p>
     </footer>
 </body>
 </html>
